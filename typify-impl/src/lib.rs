@@ -57,7 +57,7 @@ pub enum Error {
 
 impl Error {
     fn invalid_value() -> Self {
-        Self::InvalidValue
+        panic!()
     }
 }
 
